@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto de Revisão do Bloco 9!
+# Boas vindas ao repositório do projeto de Revisão sobre Assincronismo!
 
 # Requisitos do projeto
 
