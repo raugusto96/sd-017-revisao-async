@@ -23,7 +23,7 @@ function saveToFavoriteList({ nome, dataDeLancamento, notaDoFilme }) {
   return li;
 }
 
-async function favoriteItemClickListener(event) {
+function favoriteItemClickListener(event) {
   // seu código aqui
 }
 
