@@ -13,28 +13,28 @@ function createCustomElement(element, className, innerText) {
 }
 
 function getSkuFromFilmItem(item) {
-  return item.querySelector('span.item__sku').innerText;
+  return item.querySelector('span.item_sku').innerText;
 }
 
-function createFavoriteItemElement({ nome, dataDeLancamento, notaDoFilme }) {
+function saveToFavoriteList({ nome, dataDeLancamento, notaDoFilme }) {
   const li = document.createElement('li');
   li.className = 'favorite_item';
   li.innerText = `Nome: ${nome} | Data de lançamento: ${dataDeLancamento} | Nota: $${notaDoFilme}`;
   return li;
 }
 
-async function cartItemClickListener(event) {
+async function favoriteItemClickListener(event) {
   // seu código aqui
 }
 
-function createFilmItemElement({ sku, name, image, description }) {
+function createFilmCard({ sku, name, image, description }) {
   const section = document.createElement('section');
   section.className = 'film';
-  section.appendChild(createCustomElement('span', 'item__sku', sku));
-  section.appendChild(createCustomElement('span', 'item__title', name));
-  section.appendChild(createCustomElement('span', 'item__description', description));
+  section.appendChild(createCustomElement('span', 'item_sku', sku));
+  section.appendChild(createCustomElement('span', 'item_title', name));
+  section.appendChild(createCustomElement('span', 'item_description', description));
   section.appendChild(createFilmImageElement(image));
-  section.appendChild(createCustomElement('button', 'item__add', 'Adicionar aos favoritos!'));
+  section.appendChild(createCustomElement('button', 'item_add', 'Adicionar aos favoritos!'));
   return section;
 }
 
