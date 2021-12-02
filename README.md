@@ -692,7 +692,7 @@ Preste atenção que aos nomes das chaves.
 ### 3. Remova o item da lista de favoritos ao clicar nele
 
 Ao clicar no **filme na lista de favoritos**, ele deve ser removido da lista.
-Para isso, dentro do arquivo `script.js` você deve procurar pela função `filmItemClickListener(event)` e implementar a lógica necessária para realizar a remoção.
+Para isso, dentro do arquivo `script.js` você deve procurar pela função `favoriteItemClickListener(event)` e implementar a lógica necessária para realizar a remoção.
 
 ---
 
