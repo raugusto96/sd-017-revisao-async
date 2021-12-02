@@ -681,11 +681,11 @@ Preste atenção que aos nomes das chaves.
 **Observações técnicas:**
 
 - Você **deve** utilizar a função `saveToFavoriteList()` para adicionar os componentes _HTML_ referentes a um filme.
-- Adicione o elemento retornado da função `saveToFavoriteList(filme)` como filho do elemento `<ol class="favorite_films">`.
+- Adicione o elemento retornado da função `saveToFavoriteList(filme)` como filho do elemento `<ol class="favorite_items">`.
 
 **O que será avaliado**
 
-- O elemento com classe `.favorite_item` deve adicionar o item escolhido, apresentando corretamente suas informações de nome, data de lançacamento e nota.
+- O elemento com classe `.favorite_items` deve adicionar o item escolhido, apresentando corretamente suas informações de nome, data de lançacamento e nota.
 
 ---
 
